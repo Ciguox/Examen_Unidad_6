@@ -1,5 +1,9 @@
 site_name: My Docs
 theme: readthedocs
+
+docs_dir: 'docs_src'
+site_dir: 'docs'
+
 nav: 
   - Inicio: index.md
   - Guía de Instalación Windows 11: w11guide.md

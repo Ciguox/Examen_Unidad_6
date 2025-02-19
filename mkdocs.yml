@@ -1,0 +1,14 @@
+site_name: My Docs
+theme: readthedocs
+nav: 
+  - Inicio: index.md
+  - Guía de Instalación Windows 11: w11guide.md
+  - Especificaciones Técnicas iPhone 16: iphone16specs.md
+  - Descarga de la documentación en formato PDF:
+      - Guía de Instalación Windows 11: pdf/w11guide.pdf
+      - Especificaciones Técnicas iPhone 16: pdf/iphone16specs.pdf
+
+plugins:
+  - search
+  - pdf-export:
+      media_type: print
